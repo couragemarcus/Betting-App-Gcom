@@ -1,0 +1,27 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+
+.nav {
+    
+    display: flex;
+            justify-content: space-around; /* Even spacing across width */
+            width: 100%;
+            background-color: #f2f2f2;
+            padding: 15px 0;
+    
+            
+    }
+
+.nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 20px; /* Responsive, readable font size */
+            font-family: Arial, sans-serif;
+        }
+
+.nav a:hover {
+            color: #078f0e;
+        }
